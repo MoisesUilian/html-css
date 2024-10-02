@@ -1,0 +1,182 @@
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+@font-face {
+    font-family: tec;
+    src: url(pacote-projeto-d010/fontes/techover.ttf) format('truetype');
+}
+
+@media (max-width: 2200px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        margin: auto;
+        width: 100%;
+        max-width: 1150px;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(165, 230, 216);
+    text-align: justify;
+}
+
+main {
+    background-color: white;
+    box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.808), rgb(137, 228, 208));
+    text-align: center;
+    box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    margin: 0px;
+    padding: 40px 20px 20px 20px ;
+    font-family: tec, sans-serif;
+    font-weight: normal;
+    box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);;
+}
+
+header > nav {
+    text-align: left;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+nav > .a1:hover {
+    background-color: rgba(137, 228, 208, 0.548);
+    border-radius: 10px;
+
+}
+
+.a1 {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.a1:visited {
+    color: white;
+}
+
+
+.f1 {
+    color: rgb(62, 124, 104);
+    font-size: 2em;
+    font-family: idroid, sans-serif;
+    font-weight: normal;
+    margin: 0px 15px;
+    padding: 20px 0px 10px 0px;
+}
+
+.f2 {
+    font-weight: normal;
+    margin: 15px;
+    background-image: linear-gradient(to right, rgba(127, 255, 212, 0.616), rgba(127, 255, 212, 0));
+    color: rgb(62, 124, 104);
+    font-family: idroid, sans-serif;
+}
+
+p {
+    text-indent: 20px;
+    margin: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: rgb(62, 124, 104);
+}
+
+iframe {
+    position: absolute;
+    margin: 2.5% 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: white;
+    max-width: 1120px;
+    width: auto;
+    margin: auto;
+    padding: 20px 15px 0px 15px;
+    box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.5);
+}
+
+.final {
+    background-color: rgba(0, 236, 169, 0.74);
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    background-color: rgb(0, 150, 107);
+    margin: 0px;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.lista2 {
+    display: inline-block;
+    color: black;
+    padding: 0px;
+    margin: 1px 300px 1px 10px;
+
+}
+
+.a2:visited {
+    color: black;
+}
+
+.a3 {
+    color: rgb(32, 65, 54);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.a3:visited {
+    color: rgb(32, 65, 54);
+}
+
+.a3:hover {
+    text-decoration: underline;
+}
+
+.creditos {
+    display: flex;
+    color: white;
+    background-color: rgb(32, 65, 54);
+    text-align: center;
+    font-weight: bold;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+
+}

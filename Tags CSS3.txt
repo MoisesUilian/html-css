@@ -1,0 +1,87 @@
+Tags:
+adicionar CSS ao HTML: <link rel="stylesheet" href="ARQUIVO.css">
+regas: @charset "UTF-8";
+
+base para tags CSS dentro do HTML: <style> TAGS </style>
+configuração global:        * { TAGS }
+base para tags CSS:         TAG { TAGS ESTILOS }
+base para tags id:          TAG#NOME { TAGS ESTILOS }--------------(TAG#NOME > TAG { } )
+base para tags class:       .NOME { TAGS ESTILOS }-----------------(.NOME > TAG { } )
+base para pseudo-classes:   TAG:PSEUDOCLASSE { TAGS ESTILOS }------(TAG:PSEUDOCLASSE > TAG { } )
+base para pseudo-elementos: TAG::PSEUDOELEMENTOS { TAGS ESTILOS }--(TAG::PSEUDOELEMENTOS > TAG { } )
+remover formatação padrão do navegador: * { margin: 0; padding: 0; box-sizing: border-box; }
+comentário: /*COMENTARIO*/ (Ctrl + /)
+
+
+trocar fonte do texto:     font-family: FONTE;
+trocar tamanho da fonte:   font-size: TAMANHOem;---------(em, px)
+trocar cor do texto:       color: COR;
+trocar cor do fundo:       background-color: COR;
+grossura da fonte:         font-weight: 100-900;---------(normal,  lighter, bold, bolder)
+estilo da fonte:           font-style: ESTILO;-----------(italic, oblique, normal)
+decorar fonte:             text-dacoration: EFEITOS;-----(underline, overline, line-through, none)
+alinhamento de texto:      text-align: ESCOLHER OPÇÃO;---(center, left, right, justify, end, dentre outras)
+--Shorthand fonte:         font: font-style font-weight font-size font-family;
+--Shorthand text-shadow:   text-shadow: 1px 1px 1px COR;-(lado, baixo, espalha)
+espaço b. primeira linha:  text-indent: DISTANCIApx;
+
+bordas grossura:           border-width: GROSSURApx;
+bordas estilo:             border-style: ESTILO;
+bordas cor:                border-color: COR;
+--Shorthands borda:        border: GROSSURApx ESTILO COR;
+--Shorthands borda person. border-image: url(IMAGEM) 1 repeat; (repeat, stretch)
+
+altura da caixa:           height: ALTURApx;------------(altura e largura não funciona no display: inline;)
+altura máxima da caixa:    max-height: LARGURApx;
+altura mínima da caixa:    min-height: LARGURApx;
+largura da caixa:          width: LARGURApx;
+largura máxima da caixa:   max-width: LARGURApx;
+largura mínima da caixa:   min-width: LARGURApx;
+
+acolchoamento:             padding-DIREÇÃO: 1px;--------(-top: -right: -bottom: -left:)--("auto" centraliza)
+--Shorthand acolchoamento: padding: 1px 1px 1px 1px;----(topo, direita, baixo, esquerda)-("auto" centraliza)
+margem:                    margin-DIREÇÃO: 1px;---------(-top: -right: -bottom: -left:)--("auto" centraliza)
+--Shorthand margem:        margin: 1px 1px 1px 1px;-----(topo, direita, baixo, esquerda)-("auto" centraliza)
+centralizar conteúdo:      margin: auto;
+contorno do conteudo:      outline-ESTILO: -> ;---------(-width: largurapx;/-style: estilo;/-color: cor;)
+--Shorthand outline:       outline: GROSSURApx ESTILO COR;-(largura, estilo, cor)
+--Shorthand box-shadow:    box-shadow: 1px 1px 1px 1px COR;-(lado, baixo, desfoque, espalha)
+--Shorthand suaviza borda: border-radius: 1px 1px 1px 1px;
+
+degradê: background-image: linear-gradient(DIREÇÃO, E CORES);-(to right, to left, to top, to bottom)
+fixar imagem ao fundo:     background-attachment: fixed;-----(fixed, scroll, local)
+ajustar imagem ao fundo:   background-size: cover;-----------(cover, contain, 50% 50%, 100px 100px)
+colocar imagem ao fundo:   background-image: url('IMAGEM');
+
+Pseudo-classes:
+ativar ao passar o mouse:        TAG:hover---{ TAGS E ESTILOS }
+alterar links visitados:         TAG:visited-{ TAGS E ESTILOS }
+alterar quando esta clicando:    TAG: active-{ TAGS E ESTILOS }
+
+Pseudo-elementos:
+conteúdo antes:            TAG::before-------{ TAGS E ESTILOS }
+conteúdo depois:           TAG::after--------{ TAGS E ESTILOS }
+estilos na primeira linha: TAG::first-line---{ TAGS E ESTILOS }
+estilos na primeira letra: TAG::first-letter-{ TAGS E ESTILOS }
+
+Caixa responsiva:      display: flex;
+--Shorthand flex item: flex: 1 1 100%;-------(flex-glow, flex-shrink, flex-basis)
+
+ocultar elemento:    display: none;
+exibir elemento:     display: block;
+tudo na mesma linha: display: inline-block; 
+
+
+
+
+
+centralizar elementos horizontalmente: justify-content: center;
+centralizar elementos verticalmente:   align-itens: center;
+espaçamento entre os elementos:        gap: 20px 10px;
+flex-direction: column;
+cor com variáveis:   :root { --NOME: COR; }
+fonte com variáveis: :root { --NOME: FONTE; }
+duração de uma animação de transição: transition-duration: VALORs;
+altura entre linhas: line-height: ALTURAem;
+posição dos marcadores da lista: list-style-position: OPÇÃO; (inside, outside)
+elemento em múltiplas colunas: columns: QUANTIDADE;

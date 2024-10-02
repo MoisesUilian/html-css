@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão interativo</title>
+    <style>
+        body {
+            background-image: url(imagens/pexels-free-nature-stock-7477.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        .b1 {
+            font-family: sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: black;
+            background-color: rgba(64, 64, 64, 0.466);
+            box-shadow: 2px 2px 20px 1px rgb(64, 64, 64);
+            border-radius: 20px;
+            width: 300px;
+            margin: 20px auto;
+            padding: 5px;
+        }
+        
+        a {
+            display: inline-block;
+            background-color: white;
+            font-size: 1em;
+            text-decoration: none;
+            font-weight: 600;
+            border: 3px solid rgb(64, 64, 64);
+            padding: 6px 10px 5px 10px;
+            border-radius: 30px;
+            box-shadow: 2px 2px 10px 1px rgb(64, 64, 64); 
+            margin-bottom: 5px;
+            transition-duration: 0.4s;
+        }
+
+        .b2 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+        }
+        
+        a:visited {
+            color: rgb(64, 64, 64);
+        }
+        
+        a:hover {
+            background-color: rgb(64, 64, 64);
+            color: white;
+        }
+        
+        a:active {
+            background-color: white;
+            color: rgb(64, 64, 64);
+        }
+        
+        .b1 > .b2 {
+            display: none;
+        }
+        
+        .b1:hover > .b2 {
+            display: block;
+        }
+        
+        /*
+       div#agwgtq1i82 {
+            display: none;
+        } 
+            BUG OCORRIDO, CORRIGIDO ADICIONANDO class="b1" A TAG "DIV"
+        */
+    </style>
+</head>
+<body>
+    <div class="b1">
+        » Acesse Aqui «
+     <div class="b2">    
+             <a href="#">Clique no botão inútil!</a>
+             <a href="#">Clique no botão inútil!</a>
+             <a href="#">Clique no botão inútil!</a>
+             <a href="#">Clique no botão inútil!</a>
+             <a href="#">Clique no botão inútil!</a>
+             <a href="#">Clique no botão inútil!</a>
+             <a href="#">Clique no botão inútil!</a>   
+     </div>
+    </div>
+
+</body>
+</html>
