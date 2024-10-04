@@ -55,9 +55,9 @@ repetir ou não img fundo:  background-repeat: repeat;--------(no-repeat, repeat
 degradê: background-image: linear-gradient(DIREÇÃO, E CORES);-(to right, to left, to top, to bottom)
 
 Pseudo-classes:
-ativar ao passar o mouse:        TAG:hover---{ TAGS E ESTILOS }
-alterar links visitados:         TAG:visited-{ TAGS E ESTILOS }
-alterar quando esta clicando:    TAG: active-{ TAGS E ESTILOS }
+ativar ao passar o mouse:     TAG:hover---{ TAGS E ESTILOS }
+alterar links visitados:      TAG:visited-{ TAGS E ESTILOS }
+alterar quando esta clicando: TAG: active-{ TAGS E ESTILOS }
 
 Pseudo-elementos:
 conteúdo antes:            TAG::before-------{ TAGS E ESTILOS }
