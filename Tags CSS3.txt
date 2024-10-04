@@ -52,6 +52,7 @@ contorno do conteudo:      outline-ESTILO: -> ;---------(-width: largurapx;/-sty
 colocar imagem ao fundo:   background-image: url('IMAGEM/URL');
 fixar imagem ao fundo:     background-attachment: fixed;-----(fixed, scroll, local)
 ajustar imagem ao fundo:   background-size: cover;-----------(cover, contain, 50% 50%, 100px 100px)
+posição inicial da imagem: background-position: center;------(top, bottom, left, right, center/50% 50%/0px 0px)
 repetir ou não img fundo:  background-repeat: repeat;--------(no-repeat, repeat-x, repeat-y)
 degradê: background-image: linear-gradient(DIREÇÃO, E CORES);-(to right, to left, to top, to bottom)
 
