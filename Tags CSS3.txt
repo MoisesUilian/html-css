@@ -48,10 +48,11 @@ contorno do conteudo:      outline-ESTILO: -> ;---------(-width: largurapx;/-sty
 --Shorthand box-shadow:    box-shadow: 1px 1px 1px 1px COR;-(lado, baixo, desfoque, espalha)
 --Shorthand suaviza borda: border-radius: 1px 1px 1px 1px;
 
-degradê: background-image: linear-gradient(DIREÇÃO, E CORES);-(to right, to left, to top, to bottom)
+colocar imagem ao fundo:   background-image: url('IMAGEM');
 fixar imagem ao fundo:     background-attachment: fixed;-----(fixed, scroll, local)
 ajustar imagem ao fundo:   background-size: cover;-----------(cover, contain, 50% 50%, 100px 100px)
-colocar imagem ao fundo:   background-image: url('IMAGEM');
+repetir ou não img fundo:  background-repeat: repeat;--------(no-repeat, repeat-x, repeat-y)
+degradê: background-image: linear-gradient(DIREÇÃO, E CORES);-(to right, to left, to top, to bottom)
 
 Pseudo-classes:
 ativar ao passar o mouse:        TAG:hover---{ TAGS E ESTILOS }
