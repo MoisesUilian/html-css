@@ -1,4 +1,5 @@
 Tags:
+
 adicionar CSS ao HTML: <link rel="stylesheet" href="ARQUIVO.css">
 regas: @charset "UTF-8";
 
@@ -29,7 +30,7 @@ bordas grossura:           border-width: GROSSURApx;
 bordas estilo:             border-style: ESTILO;
 bordas cor:                border-color: COR;
 --Shorthands borda:        border: GROSSURApx ESTILO COR;
---Shorthands borda person. border-image: url(IMAGEM) 1 repeat; (repeat, stretch)
+--Shorthands borda person. border-image: url(IMAGEM) 1 repeat;-(repeat, stretch)
 
 altura da caixa:           height: ALTURApx;------------(altura e largura não funciona no display: inline;)
 altura máxima da caixa:    max-height: LARGURApx;
@@ -48,15 +49,17 @@ contorno do conteudo:      outline-ESTILO: -> ;---------(-width: largurapx;/-sty
 --Shorthand box-shadow:    box-shadow: 1px 1px 1px 1px COR;-(lado, baixo, desfoque, espalha)
 --Shorthand suaviza borda: border-radius: 1px 1px 1px 1px;
 
-degradê: background-image: linear-gradient(DIREÇÃO, E CORES);-(to right, to left, to top, to bottom)
+colocar imagem ao fundo:   background-image: url('IMAGEM/URL');
 fixar imagem ao fundo:     background-attachment: fixed;-----(fixed, scroll, local)
 ajustar imagem ao fundo:   background-size: cover;-----------(cover, contain, 50% 50%, 100px 100px)
-colocar imagem ao fundo:   background-image: url('IMAGEM');
+posição inicial da imagem: background-position: center;------(top, bottom, left, right, center/50% 50%/0px 0px)
+repetir ou não img fundo:  background-repeat: repeat;--------(no-repeat, repeat-x, repeat-y)
+degradê: background-image: linear-gradient(DIREÇÃO, E CORES);-(to right, to left, to top, to bottom)
 
 Pseudo-classes:
-ativar ao passar o mouse:        TAG:hover---{ TAGS E ESTILOS }
-alterar links visitados:         TAG:visited-{ TAGS E ESTILOS }
-alterar quando esta clicando:    TAG: active-{ TAGS E ESTILOS }
+ativar ao passar o mouse:     TAG:hover---{ TAGS E ESTILOS }
+alterar links visitados:      TAG:visited-{ TAGS E ESTILOS }
+alterar quando esta clicando: TAG: active-{ TAGS E ESTILOS }
 
 Pseudo-elementos:
 conteúdo antes:            TAG::before-------{ TAGS E ESTILOS }
