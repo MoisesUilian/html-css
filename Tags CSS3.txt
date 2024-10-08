@@ -79,7 +79,7 @@ tudo na mesma linha: display: inline-block;
 
 
 centralizar elementos horizontalmente: justify-content: center;
-centralizar elementos verticalmente:   align-itens: center;
+centralizar elementos verticalmente:   align-items: center;
 espaçamento entre os elementos:        gap: 20px 10px;
 flex-direction: column;
 cor com variáveis:   :root { --NOME: COR; }
@@ -88,3 +88,4 @@ duração de uma animação de transição: transition-duration: VALORs;
 altura entre linhas: line-height: ALTURAem;
 posição dos marcadores da lista: list-style-position: OPÇÃO; (inside, outside)
 elemento em múltiplas colunas: columns: QUANTIDADE;
+mover elemento: transform: translate(1%, 1%);
