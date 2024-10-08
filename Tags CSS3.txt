@@ -33,8 +33,8 @@ bordas cor:                border-color: COR;
 --Shorthands borda person. border-image: url(IMAGEM) 1 repeat;-(repeat, stretch)
 
 altura da caixa:           height: ALTURApx;------------(altura e largura não funciona no display: inline;)
-altura máxima da caixa:    max-height: LARGURApx;
-altura mínima da caixa:    min-height: LARGURApx;
+altura máxima da caixa:    max-height: ALTURApx;
+altura mínima da caixa:    min-height: ALTURAx;
 largura da caixa:          width: LARGURApx;
 largura máxima da caixa:   max-width: LARGURApx;
 largura mínima da caixa:   min-width: LARGURApx;
@@ -89,4 +89,6 @@ altura entre linhas: line-height: ALTURAem;
 posição dos marcadores da lista: list-style-position: OPÇÃO; (inside, outside)
 elemento em múltiplas colunas: columns: QUANTIDADE;
 mover elemento: transform: translate(1%, 1%);
+texto maiusculo/minusculo: text-transform: OPÇÃO; (uppercase, lowercase)
+texto maiusculo pequeno: font-variant: OPÇÃO; (small-caps, normal)
 .
