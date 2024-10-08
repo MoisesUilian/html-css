@@ -89,3 +89,4 @@ altura entre linhas: line-height: ALTURAem;
 posição dos marcadores da lista: list-style-position: OPÇÃO; (inside, outside)
 elemento em múltiplas colunas: columns: QUANTIDADE;
 mover elemento: transform: translate(1%, 1%);
+.
