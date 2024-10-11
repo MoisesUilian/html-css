@@ -91,4 +91,4 @@ elemento em múltiplas colunas: columns: QUANTIDADE;
 mover elemento: transform: translate(1%, 1%);
 texto maiusculo/minusculo: text-transform: OPÇÃO; (uppercase, lowercase)
 texto maiusculo pequeno: font-variant: OPÇÃO; (small-caps, normal)
-.
+fundir borda da tabela: border-collapse: collapse;

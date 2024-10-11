@@ -35,6 +35,10 @@ Lista de definição:  <dl> </dl>-( <dl> <dt> " " </dt> </dl> )-( <dl> <dd> " " 
 Termo:               <dt> </dt>-(trabalha junta da lista de definição)
 Descrição:           <dd> </dd>-(trabalha junta da lista de definição)
 
+tabelas: <table> </table>
+linhas de tabela: <tr> </tr>
+dados da tabela: <td> </td>
+
 link interno/externo/download: <a href="LINK/ARQUIVO"> "TEXTO" </a>
 link nova aba: <a href="LINK/ARQUIVO" target="_blank" rel="OPÇÃO"> "TEXTO" </a> ( rel="external", "next", "prev", "author", "nofollow")
 
