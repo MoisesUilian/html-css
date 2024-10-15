@@ -41,7 +41,7 @@ cabeçalho da tabela: <thead> <tr> </tr> </thead>
 corpo da tabela:     <tbody> <tr> </tr> </tbody>
 rodapé da tabela:    <tfoot> <tr> </tr> </tfoot>
 linha da tabela:     <tr> </tr>
-célula de cabeçalho: <th> </th> (scope="col" (baixo), scope="row" (lado)) 
+célula de cabeçalho: <th> </th> (scope="col", scope="colgroup" (baixo), scope="row", scope="rowgroup" (lado))
 dados da tabela:     <td> </td>
 mesclagem de celula: colspan="0" (lado), rowspan="0" (baixo)
 
