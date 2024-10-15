@@ -44,6 +44,7 @@ linha da tabela:     <tr> </tr>
 célula de cabeçalho: <th> </th> (scope="col", scope="colgroup" (baixo), scope="row", scope="rowgroup" (lado))
 dados da tabela:     <td> </td>
 mesclagem de celula: colspan="0" (lado), rowspan="0" (baixo)
+Agrupar colunas da tabela: <colgroup> <col span="0"> </colgroup>
 
 link interno/externo/download: <a href="LINK/ARQUIVO"> "TEXTO" </a>
 link nova aba: <a href="LINK/ARQUIVO" target="_blank" rel="OPÇÃO"> "TEXTO" </a> ( rel="external", "next", "prev", "author", "nofollow")
