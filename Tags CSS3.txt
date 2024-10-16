@@ -94,3 +94,4 @@ texto maiusculo/minusculo: text-transform: OPÇÃO; (uppercase, lowercase)
 texto maiusculo pequeno: font-variant: OPÇÃO; (small-caps, normal)
 fundir borda da tabela: border-collapse: collapse;
 ajuste vertical de elemento: vertical-align: middle; (top, bottom, baseline)
+barra de rolagem: overflow: OPÇÃO; (overflow-y, overflow-x)-(auto, scroll, hidden)
