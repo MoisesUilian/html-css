@@ -46,9 +46,11 @@ dados da tabela:     <td> </td>
 mesclagem de celula: colspan="0" (lado), rowspan="0" (baixo)
 Agrupar colunas da tabela: <colgroup> <col span="0"> </colgroup>
 
-link interno/externo/download: <a href="LINK/ARQUIVO"> "TEXTO" </a>
-link nova aba: <a href="LINK/ARQUIVO" target="_blank" rel="OPÇÃO"> "TEXTO" </a> ( rel="external", "next", "prev", "author", "nofollow")
-inline frame: <iframe src="LINK" frameborder="0">TEXTO ALTERNATIVO</iframe>
+link interno/externo/download: <a href="LINK/ARQUIVO"> TEXTO </a>
+link nova aba: <a href="LINK/ARQUIVO" target="OPÇÃO" rel="OPÇÃO"> TEXTO </a>
+link nova aba atributos: (target="_blank", target="NOME")--( rel="external", "next", "prev", "author", "nofollow")
+
+inline frame: <iframe src="LINK/ARQUIVO" frameborder="0">TEXTO ALTERNATIVO</iframe> (name="NOME", srcdoc="TAGS")
 
 imagem: <img src="IMAGEM" alt="TEXTO EXPLICANDO A IMAGEM">
 imagem de tamanhos diferentes: <picture> TAGS <img> </picture>
