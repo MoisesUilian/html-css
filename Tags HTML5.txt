@@ -51,6 +51,7 @@ link nova aba: <a href="LINK/ARQUIVO" target="OPÇÃO" rel="OPÇÃO"> TEXTO </a>
 link nova aba atributos: (target="_blank", target="NOME")--( rel="external", "next", "prev", "author", "nofollow")
 
 inline frame: <iframe src="LINK/ARQUIVO" frameborder="0">TEXTO ALTERNATIVO</iframe> (name="NOME", srcdoc="TAGS")
+segurança iframe: sandbox="sandbox" (allow-scripts, allow-same-origin, allow-forms, allow-popups) referrerpolicy="no-referrer"
 
 imagem: <img src="IMAGEM" alt="TEXTO EXPLICANDO A IMAGEM">
 imagem de tamanhos diferentes: <picture> TAGS <img> </picture>
