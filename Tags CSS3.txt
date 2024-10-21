@@ -67,6 +67,7 @@ conteúdo antes:            TAG::before-------{ TAGS E ESTILOS }
 conteúdo depois:           TAG::after--------{ TAGS E ESTILOS }
 estilos na primeira linha: TAG::first-line---{ TAGS E ESTILOS }
 estilos na primeira letra: TAG::first-letter-{ TAGS E ESTILOS }
+estilos barra de rolagem:  ::-webkit-scrollbar-{TAGS E ESTILOS}
 
 Caixa responsiva:      display: flex;
 --Shorthand flex item: flex: 1 1 100%;-------(flex-glow, flex-shrink, flex-basis)
@@ -85,7 +86,8 @@ espaçamento entre os elementos:        gap: 20px 10px;
 flex-direction: column;
 cor com variáveis:   :root { --NOME: COR; }
 fonte com variáveis: :root { --NOME: FONTE; }
-duração de uma animação de transição: transition-duration: VALORs;
+transição de uma animação: transition-duration: TAG 0.0s, TAG 0.0s;
+animação deslocar elemento: transform: translate(VALOR, VALOR); (px, %)
 altura entre linhas: line-height: ALTURAem;
 posição dos marcadores da lista: list-style-position: OPÇÃO; (inside, outside)
 elemento em múltiplas colunas: columns: QUANTIDADE;
