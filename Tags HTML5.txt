@@ -71,6 +71,9 @@ agrupar elementos: <span> TAGS </span>
 identificador unico: id="NOME DESEJADO" 
 identificador multiplo: class="NOME DESEJADO"
 
+agrupar elementos de formulario: <fieldset> </fieldset>
+titulo de formulario / fieldset: <legend> </legend>
+
 HTML5 semântico:
 
 seção do cabeçalho:          <header> TAGS </header>
