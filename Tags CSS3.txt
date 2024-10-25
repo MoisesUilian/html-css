@@ -1,7 +1,7 @@
 Tags:
 
 adicionar CSS ao HTML:   <link rel="stylesheet" href="style.css">
-adicionar media queries: (media="print", media="screen", media="all", media="speech")
+adicionar media queries: (media="print", media="screen", media="all", media="speech", (orientation: portrait), (orientation: landscape))
 estilos para telas pequenas: @media (max-width: 0px) {  TAG {  ESTILO }   }
 estilos para telas grandes:  @media (min-width: 0px) {  TAG {  ESTILO }   }
 regas: @charset "UTF-8";
@@ -20,7 +20,6 @@ comentário: /*COMENTARIO*/ (Ctrl + /)
 trocar fonte do texto:     font-family: FONTE;
 trocar tamanho da fonte:   font-size: TAMANHOem;---------(em, px)
 trocar cor do texto:       color: COR;
-trocar cor do fundo:       background-color: COR;
 grossura da fonte:         font-weight: 100-900;---------(normal,  lighter, bold, bolder)
 estilo da fonte:           font-style: ESTILO;-----------(italic, oblique, normal)
 decorar fonte:             text-dacoration: EFEITOS;-----(underline, overline, line-through, none)
@@ -52,12 +51,14 @@ contorno do conteudo:      outline-ESTILO: -> ;---------(-width: largurapx;/-sty
 --Shorthand box-shadow:    box-shadow: 1px 1px 1px 1px COR;-(lado, baixo, desfoque, espalha)
 --Shorthand suaviza borda: border-radius: 1px 1px 1px 1px;
 
+trocar cor do fundo:       background-color: COR;
 colocar imagem ao fundo:   background-image: url('IMAGEM/URL');
 fixar imagem ao fundo:     background-attachment: fixed;-----(fixed, scroll, local)
 ajustar imagem ao fundo:   background-size: cover;-----------(cover, contain, 50% 50%, 100px 100px)
 posição inicial da imagem: background-position: center;------(top, bottom, left, right, center/50% 50%/0px 0px)
 repetir ou não img fundo:  background-repeat: repeat;--------(no-repeat, repeat-x, repeat-y)
 degradê: background-image: linear-gradient(DIREÇÃO, E CORES);-(to right, to left, to top, to bottom)
+--Shorthand background:    background: COR url('IMAGEM/LINK') REPEAT  POSITION / SIZE ATTACHMENT
 
 Pseudo-classes:
 ativar ao passar o mouse:     TAG:hover------{ TAGS E ESTILOS }
