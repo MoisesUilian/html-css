@@ -58,12 +58,12 @@ imagem de tamanhos diferentes: <picture> TAGS <img> </picture>
 imagem de tamanhos diferentes: <source media="(max-width:TAMANHO PARA ACIONAR)" srcset="IMAGEM" type="image/TIPO DE IMAGEM">
 
 audio: <audio src="AUDIO" preload="metadata" controls></audio> (autoplay, loop )
-audios de formatod diferentes: <audio preload="metadata" controls> TAGS </audio>
-audios de tamanhos diferentes: <source src="AUDIO" type="audio/FORMATO DO AUDIO">
+audios de formato diferentes: <audio preload="metadata" controls> TAGS </audio>
+audios de tamanho diferentes: <source src="AUDIO" type="audio/FORMATO DO AUDIO">
 
 video: <video src="VIDEO" width="LARGURA" height="ALTURA" poster="CAPA DO VIDEO" controls></video> ( autoplay, loop )
-videos de formatod diferentes: <video width="LARGURA" height="ALTURA" poster="CAPA DO VIDEO" controls> TAGS </video>
-videos de formatod diferentes: <source src="VIDEO" type="video/FORMATO DO VIDEO">
+videos de formato diferentes: <video width="LARGURA" height="ALTURA" poster="CAPA DO VIDEO" controls> TAGS </video>
+videos de formato diferentes: <source src="VIDEO" type="video/FORMATO DO VIDEO">
 videos de outros locais: copiar e colar o link "incorporar"
 
 agrupar elementos: <div> TAGS </div> 
@@ -71,6 +71,7 @@ agrupar elementos: <span> TAGS </span>
 identificador unico: id="NOME DESEJADO" 
 identificador multiplo: class="NOME DESEJADO"
 
+criar formulario: <form action="ARQUIVO.js" method="get/post" autocomplete="on/off"> </form>
 agrupar elementos de formulario: <fieldset> </fieldset>
 titulo de formulario / fieldset: <legend> </legend>
 

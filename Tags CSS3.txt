@@ -1,6 +1,9 @@
 Tags:
 
-adicionar CSS ao HTML: <link rel="stylesheet" href="ARQUIVO.css">
+adicionar CSS ao HTML:   <link rel="stylesheet" href="style.css">
+adicionar media queries: (media="print", media="screen", media="all", media="speech")
+estilos para telas pequenas: @media (max-width: 0px) {  TAG {  ESTILO }   }
+estilos para telas grandes:  @media (min-width: 0px) {  TAG {  ESTILO }   }
 regas: @charset "UTF-8";
 
 base para tags CSS dentro do HTML: <style> TAGS </style>
