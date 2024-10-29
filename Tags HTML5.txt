@@ -34,6 +34,7 @@ lista:               <li> </li>
 Lista de definição:  <dl> </dl>-( <dl> <dt> " " </dt> </dl> )-( <dl> <dd> " " </dd> </dl> )
 Termo:               <dt> </dt>-(trabalha junta da lista de definição)
 Descrição:           <dd> </dd>-(trabalha junta da lista de definição)
+estilo dos marcador: list-style-type: opção;-(none, disc, circle, square, decimal)
 
 tabela:              <table> </table>
 legenda da tabela:   <caption> </caption>
