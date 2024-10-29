@@ -44,19 +44,27 @@ nav > ul {
 nav > ul > li > a {
     display: block;
     padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     text-decoration: none;
     text-align: center;
     background-color: rgb(87, 87, 87);
     color: white;
     border-top: 2px solid gray;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 5px rgba(255, 254, 254, 0.2);
 }
 
 nav > ul > li > a:hover {
-    background-color: gray;
+    background-color: rgb(230, 229, 229);
+    color: black;
+    transition-duration: 0.9s;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.2);
+    transform: translate(2px, 2px);
 }
 
 main {
-    width: 90vw;
+    width: 86vw;
     background-color: white;
     margin: auto;
     margin-top: 10px;

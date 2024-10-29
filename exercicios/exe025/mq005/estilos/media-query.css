@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 769px) {
+    span#burguer {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+        width: 130px;
+    }
+
+    nav > ul > li > a {
+        border-radius: 10px;
+    }
+
+    main {
+        max-width: 769px;
+    }
+
+}
