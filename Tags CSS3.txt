@@ -76,6 +76,9 @@ estilos barra de rolagem:  ::-webkit-scrollbar-{TAGS E ESTILOS}
 
 Caixa responsiva:      display: flex;
 --Shorthand flex item: flex: 1 1 100%;-------(flex-glow, flex-shrink, flex-basis)
+ajustar elementos horizontalmente: justify-content: center; (flex-start, center, flex-end, space-between, space-around)
+ajustar elementos verticalmente: align-items: center; (flex-start, center, flex-end, stretch, baseline)
+direção dos itens: flex-direction: opção; (row, row-reverse, column, column-reverse)
 
 ocultar elemento:    display: none;
 exibir elemento:     display: block;
@@ -85,22 +88,27 @@ tudo na mesma linha: display: inline-block;
 
 
 
-ajustar elementos flex/grid horizontalmente: justify-content: center; (flex-start, center, flex-end, space-between, space-around)
-ajustar elementos flex/grid verticalmente:   align-items: center; (flex-start, center, flex-end, stretch, baseline)
-espaçamento entre os elementos:        gap: 20px 10px;
-flex-direction: column;
+
+espaçamento entre os elementos: gap: 20px 10px;
+
 cor com variáveis:   :root { --NOME: COR; }
 fonte com variáveis: :root { --NOME: FONTE; }
+
 transição de uma animação: transition-duration: TAG 0.0s, TAG 0.0s;
 animação deslocar elemento: transform: translate(VALOR, VALOR); (px, %)
+transição de largura e a altura do elemento: transition: width 0s ease, height 0s ease;
+
 altura entre linhas: line-height: ALTURAem;
 posição dos marcadores da lista: list-style-position: OPÇÃO; (inside, outside)
 elemento em múltiplas colunas: columns: QUANTIDADE;
 mover elemento: transform: translate(1%, 1%);
+
 texto maiusculo/minusculo: text-transform: OPÇÃO; (uppercase, lowercase)
 texto maiusculo pequeno: font-variant: OPÇÃO; (small-caps, normal)
+
 fundir borda da tabela: border-collapse: collapse;
-ajuste vertical de elemento: vertical-align: middle; (top, bottom, baseline)
+
+ajuste vertical de elemento inline e inline-block: vertical-align: middle; (top, bottom, baseline)
 controle de conteudo: overflow: OPÇÃO; (overflow-y, overflow-x)-(auto, scroll, hidden)
 aparência do cursor do mouse: cursor: opção; (default, pointer, text, move, not-allowed, wait)
-transição de largura e a altura do elemento: transition: width 0s ease, height 0s ease;
+
