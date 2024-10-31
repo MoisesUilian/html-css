@@ -65,6 +65,7 @@ ativar ao passar o mouse:     TAG:hover------{ TAGS E ESTILOS }
 alterar links visitados:      TAG:visited----{ TAGS E ESTILOS }
 alterar quando esta clicando: TAG:active-----{ TAGS E ESTILOS }
 select elementos em posições: TAG:nth-child(odd, even, 1n 2n 3n etc..)-{ TAGS E ESTILOS }
+estilos em elementos em foco: TAG:focus------{ TAGS E ESTILOS }
 
 Pseudo-elementos:
 conteúdo antes:            TAG::before-------{ TAGS E ESTILOS }
@@ -100,4 +101,6 @@ texto maiusculo/minusculo: text-transform: OPÇÃO; (uppercase, lowercase)
 texto maiusculo pequeno: font-variant: OPÇÃO; (small-caps, normal)
 fundir borda da tabela: border-collapse: collapse;
 ajuste vertical de elemento: vertical-align: middle; (top, bottom, baseline)
-barra de rolagem: overflow: OPÇÃO; (overflow-y, overflow-x)-(auto, scroll, hidden)
+controle de conteudo: overflow: OPÇÃO; (overflow-y, overflow-x)-(auto, scroll, hidden)
+aparência do cursor do mouse: cursor: opção; (default, pointer, text, move, not-allowed, wait)
+transição de largura e a altura do elemento: transition: width 0s ease, height 0s ease;
