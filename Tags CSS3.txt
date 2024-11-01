@@ -79,6 +79,9 @@ Caixa responsiva:      display: flex;
 ajustar elementos horizontalmente: justify-content: center; (flex-start, center, flex-end, space-between, space-around)
 ajustar elementos verticalmente: align-items: center; (flex-start, center, flex-end, stretch, baseline)
 direção dos itens: flex-direction: opção; (row, row-reverse, column, column-reverse)
+manter ou quebrar linhas: flex-wrap: opção; (nowrap, wrap, wrap-reverse)
+--Shorthand direction/wrap: flex-flow opção opção; (opções acima)
+nao deixa espaço em branco: flex: auto;
 
 ocultar elemento:    display: none;
 exibir elemento:     display: block;
