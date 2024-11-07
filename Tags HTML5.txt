@@ -3,6 +3,8 @@ Tags:
 documento HTML5:  <!DOCTYPE html>
 comentario:       <!--COMENTARIO-->
 favicon:          link:favicon
+icones google: <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+icones google: class="material-icons"
 
 titulo:           <h1> </h1>
 paragrafo:        <p> </p>

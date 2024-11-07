@@ -74,14 +74,24 @@ estilos na primeira linha: TAG::first-line---{ TAGS E ESTILOS }
 estilos na primeira letra: TAG::first-letter-{ TAGS E ESTILOS }
 estilos barra de rolagem:  ::-webkit-scrollbar-{TAGS E ESTILOS}
 
-Caixa responsiva:      display: flex;
---Shorthand flex item: flex: 1 1 100%;-------(flex-glow, flex-shrink, flex-basis)
-ajustar elementos horizontalmente: justify-content: center; (flex-start, center, flex-end, space-between, space-around)
-ajustar elementos verticalmente: align-items: center; (flex-start, center, flex-end, stretch, baseline)
-direção dos itens: flex-direction: opção; (row, row-reverse, column, column-reverse)
-manter ou quebrar linhas: flex-wrap: opção; (nowrap, wrap, wrap-reverse)
+TAGS PARA CONTAINERS FLEX:
+
+Caixa responsiva: display: flex;
+Ajustar elementos horizontalmente: justify-content: center; (flex-start, center, flex-end, space-between, space-around)
+Ajustar elementos verticalmente: align-items: center; (flex-start, center, flex-end, stretch, baseline)
+Direção dos itens: flex-direction: opção; (row, row-reverse, column, column-reverse)
+Manter ou quebrar linhas: flex-wrap: opção; (nowrap, wrap, wrap-reverse)
 --Shorthand direction/wrap: flex-flow opção opção; (opções acima)
-nao deixa espaço em branco: flex: auto;
+Nao deixa espaço em branco: flex: auto;
+
+TAGS PARA ITENS FLEX:
+
+Capacidade do flex-item encolher: flex-shrink: 0;-(valor padrão 1)
+Capacidade do flex-item crescer:  flex-grow: 0;---(valor padrão 0)
+Define tamanho inicial: flex-basis: VALORES;-(auto(padrão), em, rem, px, %, vh, vw)
+--Shorthand flex item: flex: 1 1 100%;-------(flex-glow, flex-shrink, flex-basis)
+Ordem que os flexitens aparecem: order: 0;-(1, -1)
+Alinhar item especifico no cross-axis: align-self: OPÇÃO;-(auto, flex-start, flex-end, center, stretch)
 
 ocultar elemento:    display: none;
 exibir elemento:     display: block;
