@@ -89,7 +89,7 @@ TAGS PARA ITENS FLEX:
 Capacidade do flex-item encolher: flex-shrink: 0;-(valor padrão 1)
 Capacidade do flex-item crescer:  flex-grow: 0;---(valor padrão 0)
 Define tamanho inicial: flex-basis: VALORES;-(auto(padrão), em, rem, px, %, vh, vw)
---Shorthand flex item: flex: 1 1 100%;-------(flex-glow, flex-shrink, flex-basis)
+--Shorthand flex item: flex: 0 1 100%;-------(flex-glow, flex-shrink, flex-basis)
 Ordem que os flexitens aparecem: order: 0;-(1, -1)
 Alinhar item especifico no cross-axis: align-self: OPÇÃO;-(auto, flex-start, flex-end, center, stretch)
 
